@@ -1,0 +1,14 @@
+---
+name: spring-music
+
+templates:
+  ctl.erb: bin/ctl
+
+packages:
+  - openjdk
+  - spring-music
+
+properties:
+  name:
+    description: "User name"
+    default: "User"
