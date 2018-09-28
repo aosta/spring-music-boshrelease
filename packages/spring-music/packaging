@@ -1,0 +1,8 @@
+set -ex
+
+cd  spring-music
+
+export JAVA_HOME=/var/vcap/packages/openjdk
+./gradlew assemble
+
+cp build/libs/spring-music.jar $BOSH_INSTALL_TARGET
