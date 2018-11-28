@@ -1,1 +1,8 @@
+---
+blobstore:
+  provider: s3
+  options:
+    bucket_name: aosta-bosh-blobs
+    region: ap-southeast-2
+    host: s3-ap-southeast-2.amazonaws.com
 name: spring-music
