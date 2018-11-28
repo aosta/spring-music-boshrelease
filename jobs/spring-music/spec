@@ -8,6 +8,10 @@ packages:
   - openjdk
   - spring-music
 
+provides:
+  - name: http_web
+    type: http
+
 properties:
   name:
     description: "User name"
