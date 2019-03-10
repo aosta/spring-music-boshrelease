@@ -1,0 +1,25 @@
+name: spring-music
+version: 0.0.1
+commit_hash: 2306bdb
+uncommitted_changes: false
+jobs:
+- name: spring-music
+  version: ad6314eed098d2dbd78f2e5dc96bfb1098dc6c5f
+  fingerprint: ad6314eed098d2dbd78f2e5dc96bfb1098dc6c5f
+  sha1: be1487441c950bdc18d6f1332c6ebacc3cc5959c
+packages:
+- name: jdk-8
+  version: 5c082c6f451219299c2ca9c9a1a78485f737dc80
+  fingerprint: 5c082c6f451219299c2ca9c9a1a78485f737dc80
+  sha1: e09b330e3a3fd0ced7ff40053cffd062e0aaeb75
+  dependencies: []
+- name: spring-music
+  version: 9b18bde3fc6614352e288ee7b897c65e34c99a14
+  fingerprint: 9b18bde3fc6614352e288ee7b897c65e34c99a14
+  sha1: c80e412a104e1ee33fb0daac6c5f6edce6e29ab6
+  dependencies:
+  - jdk-8
+license:
+  version: e6df5656bb05d4d112d13af6970f8fbb753e5b2d
+  fingerprint: e6df5656bb05d4d112d13af6970f8fbb753e5b2d
+  sha1: 282dca45032b19bd6f1cee83e841827facac681b
