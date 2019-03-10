@@ -1,0 +1,7 @@
+---
+name: jdk-8
+
+dependencies: []
+
+files:
+  - jdk-8/**/*

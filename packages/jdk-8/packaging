@@ -1,0 +1,5 @@
+set -ex
+
+cd ${BOSH_INSTALL_TARGET}
+
+tar xzvf ${BOSH_COMPILE_TARGET}/jdk-8/*.tar.gz --strip-components=1

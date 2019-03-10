@@ -2,7 +2,7 @@
 name: spring-music
 
 dependencies:
-  - openjdk
+  - jdk-8
 
 files:
   - spring-music/**/*

@@ -1,10 +1,11 @@
-set -ex
+#!/bin/bash
 
-cd  spring-music
+set -eux
 
-export JAVA_HOME=/var/vcap/packages/openjdk
+cd spring-music
+export JAVA_HOME=/var/vcap/packages/jdk-8
 
 ./gradlew clean
 ./gradlew assemble
 
-cp build/libs/spring-music-*.jar $BOSH_INSTALL_TARGET/spring-music.jar
+cp build/libs/*.jar $BOSH_INSTALL_TARGET/spring-music.jar
